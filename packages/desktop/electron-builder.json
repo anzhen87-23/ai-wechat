@@ -1,0 +1,29 @@
+{
+  "appId": "com.anwechat.desktop",
+  "productName": "AnWeChat",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "src/**/*",
+    "../../web/dist/**/*"
+  ],
+  "mac": {
+    "category": "public.app-category.social-networking",
+    "icon": "../../assets/icon.icns",
+    "target": ["dmg", "zip"]
+  },
+  "win": {
+    "icon": "../../assets/icon.ico",
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ]
+  },
+  "linux": {
+    "icon": "../../assets/icon.png",
+    "target": ["AppImage", "deb"]
+  }
+}

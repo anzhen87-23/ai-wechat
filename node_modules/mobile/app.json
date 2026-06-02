@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "AnWeChat",
+    "slug": "an-wechat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#07c160"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anwechat.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#07c160"
+      },
+      "package": "com.anwechat.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
